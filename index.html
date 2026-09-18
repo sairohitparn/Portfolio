@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d0e">
+  <meta name="description" content="Explore the work of Sai Rohit Reddy Parne through an interactive machine learning career graph.">
+  <title>Rohit / Neural Interface</title>
+  <link rel="stylesheet" href="interface.css">
+  <script src="interface.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#dossier">Skip to profile</a>
+  <div class="boot" aria-hidden="true"><span class="boot-mark">R<span>/</span>P</span><p>INITIALIZING NEURAL INTERFACE</p><div class="boot-track"><i></i></div></div>
+  <header>
+    <a class="brand" href="index.html" aria-label="Rohit, portfolio home">R<span>/</span>P</a>
+    <div class="system-name">ROHIT PARNE<span>NEURAL INTERFACE / 01</span></div>
+    <div class="header-status"><i></i> SYSTEM ONLINE</div>
+    <a class="classic-link" href="https://github.com/sairohitparn" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+  </header>
+  <main>
+    <div class="workspace-top"><span><b>PORTFOLIO</b> / EXPERIENCE GRAPH</span><span class="session">SESSION <b>001</b><i></i> HUMAN IN THE LOOP</span></div>
+    <div class="workspace">
+      <section class="identity-panel" aria-labelledby="name">
+        <p class="kicker"><span></span> MACHINE LEARNING ENGINEER</p>
+        <h1 id="name">Sai Rohit<br>Parn<span>.</span></h1>
+        <p class="intro">Models. Language.<br>Systems that ship.</p>
+        <p class="identity-description">Applied machine learning across<br>insurance and digital media.</p>
+        <a class="resume" href="resume.docx" download><span>Download resume</span><span aria-hidden="true">&#8595;</span></a>
+        <div class="profile-meta"><div><span>CURRENT ASSIGNMENT</span><p>Talcott Financial Group</p></div><div><span>PREVIOUSLY</span><p>Axios / AI &amp; ML</p></div></div>
+        <div class="signature" aria-hidden="true">SRRP <span>//</span> ENGINEER</div>
+      </section>
+
+      <section class="neural-stage" aria-label="Interactive career graph">
+        <div class="stage-heading"><span>NEURAL MAP</span><span id="graph-state">PROFILE / ACTIVE</span></div>
+        <canvas id="network" aria-hidden="true"></canvas>
+        <div class="stage-center" aria-hidden="true"><span class="core-label">R / P</span><span class="core-subtitle">APPLIED INTELLIGENCE</span></div>
+        <button class="graph-node node-risk" data-section="risk" aria-label="Explore Talcott insurance modeling"><span class="node-target">+</span><span class="node-label">01 / RISK<span>TALCOTT</span></span></button>
+        <button class="graph-node node-language" data-section="language" aria-label="Explore Axios language systems"><span class="node-target">+</span><span class="node-label">02 / LANGUAGE<span>AXIOS</span></span></button>
+        <button class="graph-node node-stack" data-section="stack" aria-label="Explore engineering tools"><span class="node-target">+</span><span class="node-label">03 / STACK<span>ENGINEERING</span></span></button>
+        <div class="stage-coordinate" aria-hidden="true">X <span id="coord-x">0.500</span><br>Y <span id="coord-y">0.500</span></div>
+        <div class="stage-controls"><button id="motion" class="icon-button" aria-label="Pause animation" aria-pressed="false" title="Pause animation">&#8545;</button><button id="sound" class="icon-button" aria-label="Enable interface sound" aria-pressed="false" title="Enable interface sound">&#9834;</button><button id="reset" class="icon-button" aria-label="Reset to profile" title="Reset to profile">&#8634;</button></div>
+        <div class="stage-bottom"><span>CONNECTIONS / <b>72</b></span><span id="motion-state">SIGNAL ACTIVE</span></div>
+      </section>
+
+      <section class="dossier" id="dossier" aria-labelledby="dossier-title" tabindex="-1">
+        <div class="dossier-top"><span>SELECTED NODE</span><span id="node-index">00</span></div>
+        <div class="dossier-content" aria-live="polite" aria-atomic="true">
+          <span class="file-label" id="file-label">PERSONNEL / PROFILE</span>
+          <h2 id="dossier-title">The engineer<br>behind the models.</h2>
+          <p id="dossier-description">I work across model development, data pipelines, and deployment. My experience spans life insurance risk at Talcott and language systems at Axios.</p>
+          <div class="dossier-rule"></div>
+          <div id="dossier-facts"><div class="fact"><span>EDUCATION</span><p>M.S. in Data Science</p><small>University of Memphis / Dec 2025</small></div><div class="fact"><span>FOCUS</span><p>Applied ML &amp; NLP</p><small>From data preparation to production monitoring</small></div></div>
+          <div id="dossier-tags" class="tags"><span>Python</span><span>Machine learning</span><span>MLOps</span></div>
+        </div>
+        <button id="read-file" class="read-file" aria-haspopup="dialog">Open full profile <span aria-hidden="true">&#8599;</span></button>
+        <div class="file-footer"><span class="file-square"></span><span id="file-footer">PROFILE LOADED</span><span>R.P.</span></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav" aria-label="Portfolio chapters">
+      <button data-section="profile" class="chapter active" aria-pressed="true"><span class="chapter-index">00</span><span>THE ENGINEER<small>Profile &amp; background</small></span><span class="chapter-arrow">&#8599;</span></button>
+      <button data-section="risk" class="chapter" aria-pressed="false"><span class="chapter-index">01</span><span>RISK INTELLIGENCE<small>Talcott Financial Group</small></span><span class="chapter-arrow">&#8599;</span></button>
+      <button data-section="language" class="chapter" aria-pressed="false"><span class="chapter-index">02</span><span>LANGUAGE SYSTEMS<small>Axios</small></span><span class="chapter-arrow">&#8599;</span></button>
+      <button data-section="stack" class="chapter" aria-pressed="false"><span class="chapter-index">03</span><span>ENGINEERING STACK<small>Build, deploy, monitor</small></span><span class="chapter-arrow">&#8599;</span></button>
+    </nav>
+    <section class="contact-bar"><div><span class="contact-marker">&#8599;</span><p>Let's build something useful.<span>ML roles, engineering teams, interesting problems.</span></p></div><a href="mailto:rohitreddy.am@gmail.com">rohitreddy.am@gmail.com <span>&#8599;</span></a></section>
+  </main>
+  <footer><span>SAI ROHIT REDDY PARNE</span><span>HUMAN EXPERIENCE. MACHINE INTELLIGENCE.</span><span>PORTFOLIO / 2026</span></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-header"><span id="detail-category">PERSONNEL / PROFILE</span><button id="close-detail" class="icon-button" aria-label="Close details" title="Close details">&#215;</button></div><h2 id="detail-title"></h2><div id="detail-body"></div><a class="resume dialog-contact" href="mailto:rohitreddy.am@gmail.com">Discuss this work <span>&#8599;</span></a></dialog>
+<link rel="stylesheet" href="portfolio-projects.css">
+<script src="portfolio-projects.js"></script>
+</body>
+</html>
