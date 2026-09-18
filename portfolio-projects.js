@@ -23,8 +23,7 @@ window.portfolioProjects = {
     sections: [
       ['The problem', 'A resume can mention a skill without showing where it was used. This project combines job-description matching with checks for supporting evidence in projects and work experience, then explains what to improve.'],
       ['How it works', ['Llama 3.3 70B, accessed through Groq, parses resume content.', 'Sentence-BERT embeddings and fuzzy keyword matching compare the resume with a job description.', 'A five-component score covers formatting, keywords, content, skill validation, and ATS compatibility.', 'Feedback includes issue priority, suggested fixes, and before-and-after examples.']],
-      ['Application engineering', 'FastAPI and Pydantic provide the backend, with a Streamlit interface. Supabase supports email/password and Google authentication plus saved analysis history. Jinja2 and WeasyPrint generate downloadable PDF reports.'],
-      ['Scope', 'The score is the application\'s own assessment, not a score from an employer\'s ATS or a guarantee of passing a screening process. The supplied README describes the features and architecture; no measured accuracy or hiring outcomes are claimed here.']
+      ['Application engineering', 'FastAPI and Pydantic provide the backend, with a Streamlit interface. Supabase supports email/password and Google authentication plus saved analysis history. Jinja2 and WeasyPrint generate downloadable PDF reports.']
     ]
   }
 };
